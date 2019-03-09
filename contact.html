@@ -119,8 +119,8 @@ padding-top:30px;
     </footer>
 </body>
 <script>
-    // Initialize and add the map
-    function initMap() {
+       // Initialize and add the map
+       function initMap() {
         // The location of Uluru
         var igit = {
             lat: 20.934176,
@@ -137,14 +137,9 @@ padding-top:30px;
             position: igit,
             map: map
         });
-    }</script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCChvOgtQrEH_KVYg7Pg9YbNDzugmaTA6o&callback=initMap">
+    }
+
     </script>
+   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCChvOgtQrEH_KVYg7Pg9YbNDzugmaTA6o&callback=initMap"></script>
 </html>
-<script>
-    $(document).ready(function () {
-        $('body').find(
-            'img[src$="https://cdn.rawgit.com/000webhost/logo/e9bd13f7/footer-powered-by-000webhost-white2.png"]'
-        ).remove();
-    });
-</script>
+
