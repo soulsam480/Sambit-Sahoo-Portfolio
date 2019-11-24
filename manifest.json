@@ -1,0 +1,25 @@
+{
+    "name": "Sambit Sahoo",
+    "short_name": "Sambit Sahoo",
+    "description": "Sambit Sahoo Portfolio",
+    "version": "1.0",
+    "start_url": "index.html",
+    "scope": ".",
+    "background_color": "#d1d1cf",
+    "theme_color": "#cfe31e",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "dir": "ltr",
+    "lang": "en-US",
+    "related_applications": [
+  {
+     "platform": "play",
+     "url": "https://play.google.com/.../app_name",
+     "id": "com.example.app"
+  }
+ ],
+"icons": [
+   
+  
+ ]
+} 
